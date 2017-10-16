@@ -1,0 +1,229 @@
+\documentclass[12pt]{article}
+\usepackage{xltxtra}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+	\setmonofont{Courier New}
+\usepackage{array, booktabs, tabu}
+% {tabu} environment replaces {tabular} for better control of column width
+	\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+	\newcolumntype{R}{>{\raggedleft\arraybackslash}X}
+	\newcolumntype{C}{>{\center\arraybackslash}X}
+
+\begin{document}
+
+\begin{table}
+\tabulinesep=_2pt^2pt
+\begin{tabu}[to=\textwidth]{L[.26] l L[.70] <{\strut}}
+\toprule
+\multicolumn{3}{l}{Factor 1: Intergenerational Language Transmission}\\ \midrule
+Degree of endangerment 		& Grade & Speaker Population \\ \midrule
+safe					&  5	& The language is used by all ages, from
+										children up.\\
+unsafe					&  4	& The language is used by some children in 
+										all domains; it is used by all 
+										children in limited domains.\\
+definitively endangered		&  3	& The language is used mostly by the 
+										parental generation and up.\\
+severely endangered			& 2	& The language is used mostly by the
+										grandparental generation and up.\\
+critically endangered			& 1 	& The language is used by very few speakers,
+										mostly of great-grandparental generation.\\
+extinct					& 0	& There are no speakers.\\
+\bottomrule
+\end{tabu}
+\label{factor1}
+\end{table}
+
+\begin{table}
+\tabulinesep=_2pt^2pt
+\begin{tabu}[to=\textwidth]{L[.26] l L[.70] <{\strut}}
+\toprule
+\multicolumn{3}{l}{Factor 2: Absolute Number of Speakers}\\ \midrule
+\multicolumn{3}{l}{\itshape ``It is impossible to establish a hard and fast rule for interpreting absolute numbers,}\\
+\multicolumn{3}{l}{\itshape but a small speech community is always at risk.''}\\
+\bottomrule
+\end{tabu}
+\label{factor2}
+\end{table}
+
+\begin{table}
+\tabulinesep=_2pt^2pt
+\begin{tabu}[to=\textwidth]{L[.26] l L[.70] <{\strut}}
+\toprule
+\multicolumn{3}{l}{Factor 3: Proportion of Speakers within the Total 
+					Population}\\ \midrule
+Degree of endangerment 	& Grade & Proportion of speakers within the total 
+							reference population \\ \midrule
+safe				&  5	& All speak the language.\\
+unsafe				&  4	& Nearly all speak the language.\\
+definitively endangered	&  3	& A majority speak the language.\\
+severely endangered		&  2	& A minority speak the language.\\
+critically endangered		&  1 	& Very few speak the language.\\
+extinct				&  0	& None speak the language.\\
+\bottomrule
+\end{tabu}
+\label{factor3}
+\end{table}
+
+
+\begin{table}
+\tabulinesep=_2pt^2pt
+\begin{tabu}[to=\textwidth]{L[.26] l L[.70] <{\strut}}
+\toprule
+\multicolumn{3}{l}{Factor 4: Shifts in Domains of Language Use}\\ \midrule
+Degree of endangerment 	& Grade & Domains and functions \\ \midrule
+universal use				&  5	& The language is used in all domains and 
+						for all functions.\\
+multilingual parity		&  4	& Two or more languages may be used in 
+						most social domains
+						and for most functions.\\
+dwindling domains		&  3	& The language is used in home domains
+						and for many functions, but the
+						dominant language begins to penetrate
+						even home domains.\\
+limited or formal domains	&  2	& The language is used in limited social
+						domains and for several functions.\\
+highly limited domains		&  1 	& The language is used only in a very 
+						restricted number of domains and for
+						very few functions.\\
+extinct				&  0	& The language is not used in any domain
+						for any function.\\
+\bottomrule
+\end{tabu}
+\label{factor4}
+\end{table}
+
+\begin{table}
+\tabulinesep=_2pt^2pt
+\begin{tabu}[to=\textwidth]{L[.26] l L[.70] <{\strut}}
+\toprule
+\multicolumn{3}{l}{Factor 5: Response to New Domains and Media}\\ \midrule
+Degree of endangerment 	& Grade & Domains and functions \\ \midrule
+dynamic			&  5	& The language is used in all new domains.\\
+robust/active	&  4	& The language is used in most new domains.\\
+receptive		&  3	& The language is used in many new domains.\\
+coping			&  2	& The language is used in some new domains.\\
+minimal			&  1 	& The language is used in only a few new domains.\\
+inactive		&  0	& The language is not used in any new domains.\\
+\bottomrule
+\end{tabu}
+\label{factor5}
+\end{table}
+
+\begin{table}
+\tabulinesep=_2pt^2pt
+\begin{tabu}[to=\textwidth]{L[.15] L[.85] <{\strut}}
+\toprule
+\multicolumn{2}{l}{Factor 6: Availability of Materials for Language Education
+					 and Literacy}\\ \midrule
+Grade & Availability of written materials \\ \midrule
+5	& There is an established orthography and a literacy tradition with
+		grammars, dictionaries, texts, literature and everyday media. Writing
+		in the language is used in administration and education.\\
+4	& Written materials exist and children may be exposed to the written form
+		at school. Writing in the language is not used in administration.\\
+3	& Written materials exist and children may be exposed to the written form
+		at school. Literacy is not promoted through print media.\\
+2	& Written materials exist, but they may only be useful for some members of
+		the community; for others they may have a symbolic significance.
+		Literacy education in the language is not a part of the school 
+		curriculum.\\
+1	& A practical orthography is known to the community and some material is
+		being written.\\
+0	& No orthography is available to the community.\\
+\bottomrule
+\end{tabu}
+\label{factor6}
+\end{table}
+
+\begin{table}
+\tabulinesep=_2pt^2pt
+\begin{tabu}[to=\textwidth]{L[.26] l L[.70] <{\strut}}
+\toprule
+\multicolumn{3}{l}{Factor 7: Governmental \& Institutional Language Attitudes} \\
+\multicolumn{3}{l}{and Policies Including Official Status \& Use}\\ \midrule
+Degree of endangerment 	& Grade & Official attitudes towards language\\ 
+			\midrule
+equal support			&  5	& All languages are protected.\\
+differentiated support		&  4	& Minority languages are protected primarily
+					as the language of private domains. The use 
+					of the language is prestigious.\\
+passive assimilation		&  3	& No explicity policy exists for minority
+					languages.\\
+active assimilation		&  2	& Government encourages assimilation to the 
+					dominant language. There is no protection 
+					for minority languages.\\
+forced assimilation		&  1 	& The dominant language is the sole official
+					language, while non-dominant languages
+					are neither recognized nor protected.\\
+prohibition			&  0	& Minority languages are prohibited.\\
+\bottomrule
+\end{tabu}
+\label{factor7}
+\end{table}
+
+\begin{table}
+\tabulinesep=_2pt^2pt
+\begin{tabu}[to=\textwidth]{L[.15] L[.85] <{\strut}}
+\toprule
+\multicolumn{2}{l}{Factor 8: Community Members’ Attitudes towards Their Own
+					 Language}\\ \midrule
+Grade & Community members' attitudes towards language \\ \midrule
+5	& \emph{All} members value their language and wish to see it promoted.\\
+4	& \emph{Most} members support language maintenance.\\
+3	& \emph{Many} members support language maintenance; others are indifferent
+		or may even support language loss.\\
+2	& \emph{Some} members support language maintenance; others are indifferent
+		or may even support language loss.\\
+1	& Only \emph{a few} members support language maintenance; others are 
+		indifferent or may even support language loss.\\
+0	& \emph{No one} cares if the language is lost; all prefer to use the 
+		dominant language.\\
+\bottomrule
+\end{tabu}
+\label{factor8}
+\end{table}
+
+\begin{table}
+\tabulinesep=_2pt^2pt
+\begin{tabu}[to=\textwidth]{L[.26] l L[.70] <{\strut}}
+\toprule
+\multicolumn{3}{l}{Factor 9: Type and Quality of Documentation}\\ \midrule
+Nature of documentation & Grade & Language documentation \\ \midrule
+superlative		&  5	&  There are comprehensive grammars and 
+				dictionaries, extensive texts, and a 
+				constant flow of language materials.
+				Abundant annotated high-quality audio and
+				video recordings exist.\\
+good			&  4	&  There is one good grammar and a 
+				number of 
+				adequate grammars, dictionaries, texts,
+				literature and occasionally updated 
+				everyday media; adequate annotated 
+				high-quality audio and video recordings
+								exist.\\
+fair			&  3	&  There may be an adequate grammar or 
+				sufficient numbers of grammars, 
+				dictionaries and texts but no everyday
+				media; audio and video recordings of 
+				varying quality or degree of annotation 
+				may exist.\\
+fragmentary		&  2	&  There are some useful grammatical 
+				sketches, 
+				word-lists and texts useful for limited
+				linguistic research but with inadequate 
+				coverage. Audio and video recordings of 
+				varying quality, with or without any 
+				annotation, may exist.\\
+inadequate		&  1 	&  There are only a few grammatical 	sketches,
+				short word-lists and fragmentary texts.
+				Audio and video recordings do not exist,
+				are of unusable quality or are completely
+				un-annotated.\\
+undocumented			&  0	&  No material exists.\\
+\bottomrule
+\end{tabu}
+\label{factor9}
+\end{table}
+
+\end{document}
